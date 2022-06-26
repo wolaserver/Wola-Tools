@@ -3,11 +3,11 @@
 - text: Herramientas SEO
   url: /herramientas-seo
   subitems:
-   - text: Simulador de SERPS
+  - text: Simulador de SERPS
     url: /herramientas-seo/simulador-de-serps
-    - text: Generador de Títulos
+  - text: Generador de Títulos
     url: /herramientas-seo/generador-de-titulos
-    - text: Generador de Slug
+  - text: Generador de Slug
     url: /herramientas-seo/generador-de-slug
 - text: Herramientas Web
   url: /herramientas-web
