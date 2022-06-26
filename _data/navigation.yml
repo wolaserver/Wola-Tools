@@ -2,12 +2,35 @@
 
 - text: Herramientas SEO
   url: /herramientas-seo
+  subitems:
+   - text: Simulador de SERPS
+    url: /herramientas-seo/simulador-de-serps
+    - text: Generador de Títulos
+    url: /herramientas-seo/generador-de-titulos
+    - text: Generador de Slug
+    url: /herramientas-seo/generador-de-slug
 - text: Herramientas Web
   url: /herramientas-web
+  subitems:
+  - text: Generador de Scrollbar
+    url: /herramientas-web/generador-de-scrollbar
+  - text: Generadores de Sombra CSS
+    url: /herramientas-web/generadores-de-sombra-css
+  - text: Generador de Gradiente CSS
+    url: /herramientas-web/generador-de-gradiente-css
+  - text: Minify
+    url: /herramientas-web/minify-unminify
+  - text: Lista a Párrafo
+    url: /herramientas-web/lista-a-parrafo
 - text: Herramientas para Redes Sociales
   url: /herramientas-para-redes-sociales
+  subitems:
+  - text: Trendings
+    url: /herramientas-para-redes-sociales/trendings
+  - text: Que Pulicar Hoy
+    url: /herramientas-para-redes-sociales/que-pulicar-hoy
 - text: Herramientas de Diseño
   url: /herramientas-de-diseno
   subitems:
-  - text: Generador de Contraseñas
-    url: /herramientas-de-seguridad/password-generator
+  - text: Removedor de Fondos
+    url: /herramientas-de-diseno/removedor-de-fondos
