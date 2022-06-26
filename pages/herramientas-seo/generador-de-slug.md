@@ -19,7 +19,7 @@ permalink: /herramientas-seo/generador-de-slug
 
       <div class="form-group">
         <label>Slug:</label>
-        <input :value="slug" type="text" class="form-control" disabled></input>
+        &lt;input :value=&quot;slug&quot; type=&quot;text&quot; class=&quot;form-control&quot; disabled&gt;
       </div>
   </div>
   </div>
