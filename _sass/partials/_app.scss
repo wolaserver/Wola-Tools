@@ -30,6 +30,7 @@ header {
   grid-column: full;
   display: grid;
   background-color: #ffffff4d;
+  backdrop-filter: blur(10px);
   padding: 2rem;
   position:fixed;
   width:100%;
