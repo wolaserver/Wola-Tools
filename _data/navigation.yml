@@ -8,3 +8,6 @@
   url: /herramientas-para-redes-sociales
 - text: Herramientas de Diseño
   url: /herramientas-de-diseno
+  subitems:
+  - text: Herramientas de Diseño
+    url: /herramientas-de-diseno
