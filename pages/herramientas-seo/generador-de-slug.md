@@ -9,7 +9,7 @@ permalink: /herramientas-seo/generador-de-slug
 
 <div id="post">
   <input v-model="title" type="text" id="title" name="title" placeholder="Enter post title"/>
-  <p id="slug"><span>{{ slug }}</span></p>
+  <p id="slug"><span>"{{ slug }}"</span></p>
 </div>
 
 
