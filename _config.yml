@@ -43,7 +43,7 @@ sass:
 compress_html:
   clippings: all
   ignore:
-    envs: [nocompress]
+    startings: [nc]
 
 # set some common post defaults
 defaults:
