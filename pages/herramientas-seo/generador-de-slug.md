@@ -5,62 +5,51 @@ meta_description:
 permalink: /herramientas-seo/generador-de-slug
 ---
 
-{::options parse_span_html="false" /}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
-<div id="app" class="container">
-  <div class="row">
-    <div class="col-md-6 offset-md-3">
-      <h3>Vue.js 2 slug generator</h3>
-      
-      <hr />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.22/vue.min.js"></script>
 
-      <div class="form-group">
-        <label>Input:</label>
-        <input type="text" class="form-control" v-model="input" placeholder="Enter your title"/>
-      </div>
-
-      <div class="form-group">
-        <label>Slug:</label>
-        &lt;input :value=&quot;slug&quot; type=&quot;text&quot; class=&quot;form-control&quot; disabled&gt;
-      </div>
-  </div>
-  </div>
+<div id="post">
+  <input v-model="title" type="text" id="title" name="title" placeholder="Enter post title"/>
+  <p id="slug"><span>{{ slug }}</span></p>
 </div>
 
 
 
 <script>
-  const app = new Vue({
-  el: '#app',
-  
+ new Vue({
+  el: '#post',
   data: {
-    input: 'Thís is a côol & awësome title !'
+    title: "Slug",
   },
-  
   computed: {
-    slug: function () {
-      return this.slugify(this.input)
+    slug: function() {
+      var slug = this.sanitizeTitle(this.title);
+      return slug;
     }
   },
-  
   methods: {
-
-    slugify (text, ampersand = 'and') {
-      const a = 'àáäâèéëêìíïîòóöôùúüûñçßÿỳýœæŕśńṕẃǵǹḿǘẍźḧ'
-      const b = 'aaaaeeeeiiiioooouuuuncsyyyoarsnpwgnmuxzh'
-      const p = new RegExp(a.split('').join('|'), 'g')
-
-      return text.toString().toLowerCase()
-        .replace(/[\s_]+/g, '-')
-        .replace(p, c =>
-          b.charAt(a.indexOf(c)))
-        .replace(/&/g, `-${ampersand}-`)
-        .replace(/[^\w-]+/g, '')
-        .replace(/--+/g, '-')
-        .replace(/^-+|-+$/g, '')
-    }   
+    sanitizeTitle: function(title) {
+      var slug = "";
+      // Change to lower case
+      var titleLower = title.toLowerCase();
+      // Letter "e"
+      slug = titleLower.replace(/e|é|è|ẽ|ẻ|ẹ|ê|ế|ề|ễ|ể|ệ/gi, 'e');
+      // Letter "a"
+      slug = slug.replace(/a|á|à|ã|ả|ạ|ă|ắ|ằ|ẵ|ẳ|ặ|â|ấ|ầ|ẫ|ẩ|ậ/gi, 'a');
+      // Letter "o"
+      slug = slug.replace(/o|ó|ò|õ|ỏ|ọ|ô|ố|ồ|ỗ|ổ|ộ|ơ|ớ|ờ|ỡ|ở|ợ/gi, 'o');
+      // Letter "u"
+      slug = slug.replace(/u|ú|ù|ũ|ủ|ụ|ư|ứ|ừ|ữ|ử|ự/gi, 'u');
+      // Letter "d"
+      slug = slug.replace(/đ/gi, 'd');
+      // Trim the last whitespace
+      slug = slug.replace(/\s*$/g, '');
+      // Change whitespace to "-"
+      slug = slug.replace(/\s+/g, '-');
+      
+      return slug;
+    }
   }
-})
+});
 </script>
 
 
