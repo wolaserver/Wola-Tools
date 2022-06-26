@@ -55,7 +55,12 @@ defaults:
       section: "post" # set the root section name
 
 # Build settings
-markdown: CommonMark
+markdown: kramdown
+
+# Kramdown options
+kramdown:
+  # Prevent IDs from being added to h1-h6 tags
+  auto_ids: false
 
 # Include in processing (e.g. Netlify directives)
 # Uncomment before use
