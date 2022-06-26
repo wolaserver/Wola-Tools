@@ -42,6 +42,8 @@ sass:
 # Compress HTML (in liquid via layouts/compress.html)
 compress_html:
   clippings: all
+  ignore:
+    envs: [nocompress]
 
 # set some common post defaults
 defaults:
