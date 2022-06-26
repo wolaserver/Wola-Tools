@@ -20,6 +20,7 @@ header {
   padding: 2rem;
   position:fixed;
   width:100%;
+  justify-content: space-between;
   @media screen and (min-width: $screen-sm-min) {
     
   }
@@ -37,6 +38,10 @@ header {
 }
 .intro-home .col:nth-child(1) {
   flex-direction:column;
+  justify-content: center;
+}
+.intro-home .col:nth-child(1) h1{
+  font-size:50px;
 }
 .intro-home .col:nth-child(2) {
 }
@@ -104,6 +109,7 @@ main {
   display: flex;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  flex-direction: column;
   @media screen and (min-width: $screen-md-min) {
     align-content: start;
   }
