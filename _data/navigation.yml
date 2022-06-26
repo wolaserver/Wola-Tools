@@ -9,5 +9,5 @@
 - text: Herramientas de Diseño
   url: /herramientas-de-diseno
   subitems:
-  - text: Herramientas de Diseño
-    url: /herramientas-de-diseno
+  - text: Generador de Contraseñas
+    url: /herramientas-de-seguridad/password-generator
