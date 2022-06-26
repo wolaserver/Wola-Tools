@@ -5,7 +5,6 @@ permalink: /herramientas-de-seguridad/password-generator
 intro_paragraph: >
 ---
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js"></script>
 <script src="https://dl.dropboxusercontent.com/s/jnxv7j62cbxnusz/vue-pass.js"></script>
 
   <style type="text/css">
