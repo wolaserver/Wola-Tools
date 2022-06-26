@@ -1,6 +1,6 @@
 # specify main menu items here
 
-- title: Herramientas SEO
+- text: Herramientas SEO
   subitems:
   - text: Simulador de SERPS
     url: /herramientas-seo/simulador-de-serps
@@ -8,7 +8,7 @@
     url: /herramientas-seo/generador-de-titulos
   - text: Generador de Slug
     url: /herramientas-seo/generador-de-slug
-- title: Herramientas Web
+- text: Herramientas Web
   subitems:
   - text: Generador de Scrollbar
     url: /herramientas-web/generador-de-scrollbar
@@ -20,13 +20,13 @@
     url: /herramientas-web/minify-unminify
   - text: Lista a Párrafo
     url: /herramientas-web/lista-a-parrafo
-- title: Herramientas para Redes Sociales
+- text: Herramientas para Redes Sociales
   subitems:
   - text: Trendings
     url: /herramientas-para-redes-sociales/trendings
   - text: Que Pulicar Hoy
     url: /herramientas-para-redes-sociales/que-pulicar-hoy
-- title: Herramientas de Diseño
+- text: Herramientas de Diseño
   subitems:
   - text: Removedor de Fondos
     url: /herramientas-de-diseno/removedor-de-fondos
