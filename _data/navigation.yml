@@ -1,10 +1,12 @@
 # specify main menu items here
 
-- text: Home
+- text: Start
   url: /
-- text: About
-  url: /about
-- text: Contact
-  url: /contact
-- text: Blog
-  url: /blog
+- text: Herramientas SEO
+  url: /herramientas-seo
+- text: Herramientas Web
+  url: /herramientas-web
+- text: Herramientas para Redes Sociales
+  url: /herramientas-para-redes-sociales
+- text: Herramientas de Diseño
+  url: /herramientas-de-diseno
