@@ -4,7 +4,7 @@ title: Generador de Slug
 meta_description: 
 permalink: /herramientas-seo/generador-de-slug
 ---
-{::options parse_block_html="true" /}
+
 {::options parse_span_html="true" /}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
 <div id="app" class="container">
