@@ -72,6 +72,13 @@ header > h1 {
   }
 }
 
+header > nav ul ul{
+    display:none
+}
+header > nav li:hover > ul{
+    display:block
+}
+
 // main menu, is a grid item
 header > nav {
   @media screen and (min-width: $screen-sm-min) {
