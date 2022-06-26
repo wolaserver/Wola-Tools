@@ -5,7 +5,7 @@ meta_description:
 permalink: /herramientas-seo/generador-de-slug
 ---
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"/>
 
 <div id="app" class="container">
   <div class="row">
