@@ -1,7 +1,5 @@
 # specify main menu items here
 
-- text: Start
-  url: /
 - text: Herramientas SEO
   url: /herramientas-seo
 - text: Herramientas Web
