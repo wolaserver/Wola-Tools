@@ -61,6 +61,7 @@ markdown: kramdown
 kramdown:
   # Prevent IDs from being added to h1-h6 tags
   auto_ids: false
+  syntax_highlighter: coderay
 
 # Include in processing (e.g. Netlify directives)
 # Uncomment before use
