@@ -8,6 +8,6 @@
   url: /herramientas-para-redes-sociales
 - text: Herramientas de Diseño
   url: /herramientas-de-diseno
-  subsubfolderitems:
+  subfolderitems:
     - page: menu item 1.1
       url: /herramientas-de-diseno
