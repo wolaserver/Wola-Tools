@@ -94,7 +94,7 @@ header > nav li:hover > ul{
 }
 
 header > nav ul{
-  @media screen and (min-width: $screen-sm-min) {
+  @media screen and (max-width: $screen-sm-min) {
     flex-direction: column;
     z-index: 99999;
     background: #ccc;
@@ -104,7 +104,7 @@ header > nav ul{
 
 // main menu, is a grid item
 header > nav {
-  @media screen and (min-width: $screen-sm-min) {
+  @media screen and (max-width: $screen-sm-min) {
     display: flex;
     position: absolute;
     flex-direction: column;
