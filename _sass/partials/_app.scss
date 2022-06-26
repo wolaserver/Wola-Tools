@@ -15,6 +15,7 @@ body {
     [main-start] minmax(0, 52rem) [main-end]
     minmax(1rem, 1fr) [full-end];
   background-image: linear-gradient(to right bottom, #9629be, #e40090, #ff385e, #ff7930, #ebb012);
+  background-attachment: fixed;
 }
 
 // by default, make any new children of body to span the full track
