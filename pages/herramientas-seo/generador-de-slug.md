@@ -1,5 +1,5 @@
 ---
-layout: nocompress
+layout: page
 title: Generador de Slug
 meta_description: 
 permalink: /herramientas-seo/generador-de-slug
@@ -19,7 +19,7 @@ permalink: /herramientas-seo/generador-de-slug
 
       <div class="form-group">
         <label>Slug:</label>
-        <input value="slug" type="text" class="form-control" disabled></input>
+        <input :value="slug" type="text" class="form-control" disabled></input>
       </div>
   </div>
   </div>
