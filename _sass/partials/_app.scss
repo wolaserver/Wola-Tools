@@ -93,10 +93,24 @@ header > nav li:hover > ul{
     flex-direction:column;
 }
 
+header > nav ul{
+  @media screen and (min-width: $screen-sm-min) {
+    flex-direction: column;
+    z-index: 99999;
+    background: #ccc;
+    padding: 50px 15px;
+  }
+}
+
 // main menu, is a grid item
 header > nav {
   @media screen and (min-width: $screen-sm-min) {
-    float: right;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    width: 100%;
   }
   ul {
     // flexbox is better than grid for distributing an unknown qty of children
