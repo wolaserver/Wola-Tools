@@ -41,7 +41,7 @@ sass:
 
 # Compress HTML (in liquid via layouts/compress.html)
 compress_html:
-  clippings: [div, p, ul, td, h1, h2]
+  clippings: all
 
 
 # set some common post defaults
@@ -55,12 +55,7 @@ defaults:
       section: "post" # set the root section name
 
 # Build settings
-markdown: kramdown
-
-# Kramdown options
-kramdown:
-  # Prevent IDs from being added to h1-h6 tags
-  auto_ids: false
+markdown: CommonMark
 
 # Include in processing (e.g. Netlify directives)
 # Uncomment before use
