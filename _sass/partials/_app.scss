@@ -4,6 +4,8 @@ body {
   background-attachment: fixed;
   flex-direction:column;
   align-items: center;
+  min-height: 100vh;
+  justify-content: space-between;
 }
 
 // by default, make any new children of body to span the full track
