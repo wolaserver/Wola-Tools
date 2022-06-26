@@ -35,17 +35,18 @@ header {
 }
 .intro-home .col{
   display:flex;
-  width:50%;
   max-width:600px;
 }
 .intro-home .col:nth-child(1) {
   flex-direction:column;
   justify-content: center;
+  width:40%;
 }
 .intro-home .col:nth-child(1) h1{
   font-size:50px;
 }
 .intro-home .col:nth-child(2) {
+  width:60%;
 }
 
 
