@@ -40,6 +40,23 @@ header {
   }
 }
 
+.intro-home{
+  display:flex;
+  flex-direction:row;
+  
+}
+.intro-home .col{
+  display:flex;
+  width:50%;
+  min-width:600px;
+}
+.intro-home .col:nth-child(1) {
+  flex-direction:column;
+}
+.intro-home .col:nth-child(2) {
+}
+
+
 // logo, is a grid item
 header > h1 {
   display: inline-block;
