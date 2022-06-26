@@ -48,7 +48,7 @@ header {
 .intro-home .col{
   display:flex;
   width:50%;
-  min-width:600px;
+  max-width:600px;
 }
 .intro-home .col:nth-child(1) {
   flex-direction:column;
